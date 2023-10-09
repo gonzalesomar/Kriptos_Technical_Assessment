@@ -1,7 +1,6 @@
 streamlit
 pandas
 plotly
-Counter
-TfidfVectorizer
 WordCloud
 matplotlib
+scikit-learn
