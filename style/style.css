@@ -1,0 +1,44 @@
+/* Style inputs with type="text", select elements and textareas */
+header[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: rgb(132, 121, 253);
+  } 
+  /* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+  footer {visibility: hidden;}
+  header {visibility: hidden;}
+  
+  caption1{
+    background-color: #138fc4;
+    color: white;
+  }
+
+/* Custom styles for headers */
+h1 {
+    color: #4a90e2;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    color: #e94e77;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+h3 {
+    color: #34495e;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
